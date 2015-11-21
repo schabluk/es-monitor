@@ -17,11 +17,17 @@ es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 accounts-password       # Password support for accounts
-autopublish             # Publish all data to the clients (for prototyping)
-insecure                # Allow all DB writes from clients (for prototyping)
 react                   # Everything you need to use React with Meteor.
 semantic:ui             # Official Semantic UI Integration for Meteor
 flemay:less-autoprefixer# The dynamic stylesheet language + Autoprefixer
 iron:router             # Routing specifically designed for Meteor
 meteorhacks:npm         # Use npm modules with your Meteor App
 momentjs:moment         # Moment.js: parse, validate, manipulate, and display dates
+percolate:synced-cron   # Allows you to define and run scheduled jobs across multiple servers
+d3js:d3                 # A JavaScript visualization library for HTML and SVG
+nvd3:nvd3               # Nvd3.org charts
+nvd3:nvd3-wrapper       # Nvd3 wrapper
+ostrio:neo4jreactivity  # Meteor.js Neo4j database reactivity layer
+jeremy:snapsvg          # The JavaScript library for modern SVG graphics
+check                   # Check whether a value matches a pattern
+ejson                   # Extended and Extensible JSON library
