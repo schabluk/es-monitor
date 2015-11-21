@@ -1,3 +1,0 @@
-Template.main.onRendered(function() {
-
-})
