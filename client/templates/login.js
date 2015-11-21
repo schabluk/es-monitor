@@ -76,7 +76,7 @@ Template.login.events({
 
     Meteor.loginWithPassword(username, password, function(error) {
       if(!error) {
-        Router.go('main')
+        Router.go('/')
       } else {
         /** Add error recognition (user not found/invalid password) */
         if(error.reason.match(/User/g)) {
@@ -100,7 +100,7 @@ Template.login.events({
       password: password
     }, function(error) {
       if(!error) {
-        Router.go('main')
+        Router.go('/')
       } else {
         $('form.register').form('add prompt', 'registerUsername', error.reason)
       }
