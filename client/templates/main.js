@@ -1,0 +1,3 @@
+Template.main.onRendered(function() {
+
+})

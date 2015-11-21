@@ -1,0 +1,54 @@
+html {
+  height: 101%;
+}
+
+body {
+  background: #F5F5F5;
+}
+
+a {
+  outline: 0 !important;
+}
+
+textarea {
+    resize: none !important;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+/* Semantic */
+
+.ui.basic.buttons {
+  border-radius: 2px;
+}
+
+.ui.menu.navbar {
+  background: white;
+}
+
+.ui.menu.navbar .header.item {
+  border-right: none !important;
+}
+
+.ui.menu.navbar .active.item {
+  font-weight: normal;
+}
+
+/* Vertical Menu */
+
+.ui.vertical.menu {
+  width: 100%;
+}
+
+/* Border radius */
+.ui.menu,
+.ui.segments,
+.ui.cards > .card,
+.ui.card {
+  border-radius: 2px;
+}
