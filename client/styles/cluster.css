@@ -1,0 +1,165 @@
+
+.node .card {
+  background: #E8E8E8;
+}
+
+.ui.seen {
+  vertical-align: top;
+  margin-right: 0.5em;
+}
+
+.bar-chart {
+  position: absolute;
+  bottom: 0px;
+  height: 40px;
+  width: 100%;
+}
+
+.bar-chart > svg.nvd3-svg {
+  height: 40px;
+  width: 100%;
+}
+
+.nvd3.nv-pie .nv-pie-title {
+  fill: #696969;
+}
+
+.nv-legend-text {
+  font-size: 8px !important;
+}
+
+.nv-legend-symbol {
+
+}
+
+.ui.grid > .row > .red.column,
+.ui.grid > .row > .orange.column,
+.ui.grid > .row > .yellow.column,
+.ui.grid > .row > .olive.column,
+.ui.grid > .row > .green.column,
+.ui.grid > .row > .teal.column,
+.ui.grid > .row > .blue.column,
+.ui.grid > .row > .violet.column,
+.ui.grid > .row > .purple.column,
+.ui.grid > .row > .pink.column,
+.ui.grid > .row > .brown.column,
+.ui.grid > .row > .grey.column,
+.ui.grid > .row > .black.column {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.ui.card > .content {
+  position: relative;
+}
+
+/* Cluster Nodes grid
+.ui.divided.grid > .row > .column {
+  text-align: center;
+} */
+
+/* Two attached labels */
+.ui.top.attached.label:nth-child(2) + :not(.attached) {
+  margin-top: 2rem !important;
+}
+
+.ui.mini.statistics > .statistic {
+  margin: 0em 1.5em 1em;
+}
+
+.ui.mini.statistics .statistic > .value,
+.ui.mini.statistic > .value {
+  font-size: 0.2rem;
+}
+
+.node {
+  width: 20rem !important;
+  height: 21rem !important;
+}
+.side > .card {
+  width: 20rem !important;
+  height: 20rem !important;
+}
+/*
+.node > .sides > .side > .card > .content {
+  margin-bottom: 1rem;
+}
+*/
+.node > .sides > .side > .card > .content > .ui.top.attached.label:first-child + :not(.attached) {
+  margin-top: 1rem !important;
+}
+
+.node > .sides > .side > .card > .content > .label:not(.attached) {
+  width: 100%;
+}
+
+.node > .sides > .side > .card > .content > .label > .name {
+  width: 70px;
+  text-align: right;
+  display: inline-block;
+}
+
+.node > .sides > .side > .grid > .row {
+  border: none;
+  padding: 0rem 0rem;
+}
+
+.node > .sides > .side.info > .grid > .row {
+  /*padding: 0.05rem 0rem;*/
+}
+
+.node > .sides > .side.info > .card > .row.content {
+  border-width: 0px;
+}
+
+.ui.card > .row.content > .column.chart {
+  margin-top: 10px;
+}
+
+.node > .sides > .side > .grid > .row:last-child {
+  padding: 0.1rem 0px 0px 0px;
+  background: white !important;
+}
+
+.node > .sides > .side > .grid > .row > .top.attached.label {
+  background: white;
+  border-radius: 0.214286rem 0.214286rem 0em 0em;
+}
+
+.node > .sides > .side > .card > .row:last-child > .label {
+  background: white;
+}
+
+.node > .sides > .side > .card > .row > .label {
+  background: white;
+  border-radius: 0px;
+}
+
+.node > .sides > .side > .grid > .row > .chart {
+  padding: 0.1rem 0rem;
+}
+
+.node > .sides > .side > .grid > .row > .chart svg.nvd3-svg {
+  /*height: 5rem;*/
+}
+
+.node > .sides > .side > .card > .row > .label.button {
+  border-radius: 0em 0em 0.285714rem 0.285714rem !important;
+  width: 100%;
+}
+
+.node > .sides > .side > .card > .row > .label:not(.attached) > .name {
+  min-width: 60px;
+  text-align: right;
+  display: inline-block;
+}
+
+.node .ui.popup {
+  left: 0px !important;
+}
+
+.ui.attached.label > .ui.label > .icon {
+  margin: 0px;
+}
