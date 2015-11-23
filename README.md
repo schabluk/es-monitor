@@ -4,7 +4,7 @@
 
 ## installation
 
-The application requires Meteor to run.
+The application requires Meteor.
 
 ```
 curl https://install.meteor.com/ | sh

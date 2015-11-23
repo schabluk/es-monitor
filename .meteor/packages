@@ -29,3 +29,6 @@ nvd3:nvd3               # Nvd3.org charts
 nvd3:nvd3-wrapper       # Nvd3 wrapper
 check                   # Check whether a value matches a pattern
 ejson                   # Extended and Extensible JSON library
+
+
+npm-container
