@@ -18,7 +18,7 @@ cd es-monitor
 ```
 
 ## confiure
-Set ES_HOST environment variable in `start.sh` script.
+Set the ES_HOST environment variable in `start.sh` script, then start.
 
 ```
 ./start.sh
