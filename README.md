@@ -17,7 +17,6 @@ git clone https://github.com/schabluk/es-monitor.git
 cd es-monitor
 ```
 
-## confiure
 Set the ES_HOST environment variable in `start.sh` script, then start.
 
 ```
