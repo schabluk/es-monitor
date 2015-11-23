@@ -1,4 +1,4 @@
-# ElasticSearch cluster monitoring
+# ElasticSearch live monitoring
 
 ![](https://raw.githubusercontent.com/schabluk/es-monitor/master/public/img/monitor.png)
 
