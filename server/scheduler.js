@@ -4,7 +4,6 @@
 if (Meteor.isServer) {
 
   var elastic = Meteor.npmRequire('elasticsearch'),
-      bytes   = Meteor.npmRequire('bytes'),
       client  = new elastic.Client({
         host: this.process.env.ES_HOST,
         log: 'error' // trace
