@@ -58,6 +58,7 @@ BulletChart = React.createClass({
       var chart = nv.models.bulletChart()
           chart.margin({"left":60,"right":15,"top":0,"bottom":0})
           chart.height(25)
+          chart.width(290)
           chart.tooltip.enabled(self.props.tips)
           chart.color(color)
 

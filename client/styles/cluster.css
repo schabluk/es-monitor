@@ -20,6 +20,14 @@
   width: 100%;
 }
 
+.bullet-chart {
+  height: 30px;
+}
+.bullet-chart > svg.nvd3-svg {
+  height: 30px;
+  width: 100%;
+}
+
 .nvd3.nv-pie .nv-pie-title {
   fill: #696969;
 }

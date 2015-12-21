@@ -70,7 +70,7 @@ Node = React.createClass({
 
     var StorageList = node.stat.fs.data.map(function(disk) {
       return (
-        <BulletChart data={disk} title={disk.dev} subtitle={disk.type} />
+        <BulletChart data={disk} title="Storage" subtitle={disk.dev} />
       )
     })
     return (
@@ -88,7 +88,11 @@ Node = React.createClass({
                 version={node.version} />
               <div className="row content">
                 <div className="column chart">
+                  {StorageList}
+                  {StorageList}
+                  {/*
                   <BarChart datum={datum_os_mem} />
+                  */}
                 </div>
               </div>
               <div className="row">
@@ -196,11 +200,6 @@ Node = React.createClass({
                     datum={datum_mem_pie}
                     color={["#33cc99", "#f4f4f4"]}
                     legend={[{key: "usage"}, {key: "free"}]}  />
-                </div>
-              </div>
-              <div className="row">
-                <div className="column chart">
-                  {StorageList}
                 </div>
               </div>*/}
               <div className="last row">

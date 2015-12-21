@@ -10,7 +10,7 @@ Nodes = React.createClass({
     var self = this
     var NodesList = _.map(this.data.nodes, function(node) {
       return(
-        <Node {...node}/>
+        <Node key={node._id} {...node}/>
       )
     })
     return (
